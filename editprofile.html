@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Healthcare.gov || Edit Profile</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(219, 225, 226);
+        }
+        .row{
+            background: white;
+            border-radius: 30px;
+            box-shadow: 12px 12px 22px gray;
+            border-color: lightskyblue
+        }
+        img{
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        .btn1{
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;            
+        }
+        .btn1:hover{
+            background: white;
+            border: 1px solid;
+            color: black;
+        }
+      
+    </style>
+  </head>
+  <body>
+    
+    <section class="Form my-4 mx-5">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-5">
+                    <img src="images/editprofimg.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7 px-5 pt-4" >
+                        <h1 class="font-weight-bold py-3">Edit Profile</h1>
+                        <form action="profile.html">
+                            <div class="form-row">
+                                <div class="col-lg-10">
+                                    <textarea rows="1" placeholder="Name" class="form-control my-3 p-2" required>Samal Abeysundara </textarea>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-10">
+                                    <textarea rows="1" placeholder="Email" class="form-control my-2 p-2" required>samal.a@gmail.com</textarea>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-10">
+                                    <textarea rows="1" placeholder="Contact Number" class="form-control my-2 p-2" required>071-5437129</textarea>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-10">
+                                    <textarea rows="2" placeholder="Address" class="form-control my-2 p-3" required>234, New Kandy Road, Malabe </textarea>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-10">
+                                    <input type="password" placeholder="New Password" class="form-control my-2 p-2" >
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-10">
+                                    <input type="password" placeholder="Confirm New Password" class="form-control my-2 p-2" >
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-10">
+                                    <label class="my-2">Profile Picture</label><br>
+                                    <input type="file" id="img" placeholder="Profile Picture"  accept="image/*" >
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-6">
+                                    <button type="submit" class="btn1 mt-4 mb-3">Save</button>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
