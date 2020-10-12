@@ -21,10 +21,6 @@ header{
 	text-align : center;
 }
 
-nav{
-	width : 100%;
-	overflow :auto;
-}
 
 ul{
 	list-style-type: none;
@@ -40,17 +36,6 @@ li{
 	padding : 0px 0px;
 	float : left;
 
-}
-
-nav a{ 
-	padding : 20px 15px ;
-	width : 100px;
-	text-decoration : none;
-	text-align : center;
-	font-family : Lato;
-	text-transform : uppercase;
-	color : #000000;
-	font-weight: bold;
 }
 
 .vendorDrop{
