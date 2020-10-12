@@ -1,0 +1,395 @@
+.pavewrapper{
+	width: 70%;
+	height: 800%;
+	text-align: center;
+	position: center-left;
+	margin-left: 225px;
+}
+
+
+.loginscreenlogo img{
+	position: relative;
+	width: 150px;
+	margin-left: -30px;
+	margin-top: 10px;
+}
+
+.logocheckout img{
+	position:relative;
+	width: 150px;
+	margin-left: 550px;
+	margin-top: 10px;
+	
+}
+
+.logocheckout h1{
+	margin-left:710px;
+	margin-top:-70px;
+}
+
+.debitcreditscreen{
+	width: 800px;
+	position:absolute;
+	margin-top:-300px;
+	padding-left:380px;
+}
+
+
+
+.debitcreditscreen input[type=text]
+{	
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+	text-align=right;
+}
+
+.debitcreditscreen input[type=number]{
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+	text-align=right;
+}
+
+.debitcreditscreen input[type=month]{
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+	text-align=right;
+}
+
+.debitcreditscreen input[type=Reset]{
+	width: 30%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: black;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: relative;
+	text-align=right;
+}
+
+.debitcreditscreen input[type=button]{
+	width: 30%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #519be5;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: relative;
+	text-align=right;
+}
+.debitcreditscreen h2{
+	text-decoration : bold;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+	text-align=center;
+}	
+	
+.debitcreditscreen p2{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 5px;
+	font-size:18px;
+	text-align=right;
+}	
+
+.debitcreditscreen p{
+	text-decoration : none;
+	font-family : Lato;
+	color : #696969;
+	font-weight: none;
+	padding : 0px 5px;
+	font-size:16px;
+	text-align=right;
+}	
+
+
+
+.pavementscreen{
+	padding-left:280px;
+	
+}
+
+.pavementscreen input[type=number]{
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: left;
+}
+.pavementscreen input[type=date]{
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: left;
+}
+.pavementscreen input[type=text]{
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 20%;
+	height: 40px;
+	padding:10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: left;
+	margin:auto;
+}	
+
+.pavementscreen input[type=code]{
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 20%;
+	height: 40px;
+	padding: center;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: left;
+	margin:auto;
+}	
+
+.pavementscreen input[type=Reset]{
+	width: 10%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: black;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: center-left;
+}
+.pavementscreen input[type=button]{
+	width: 10%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #519be5;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: center-left;
+}
+.pavementscreen input[type=radio]{
+	width: 10%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #519be5;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: center-left;
+}
+
+.paymentmethod{
+	margin-left:10px;
+}
+
+.paymentmethod a{
+	text-decoration:none;
+	color:black;
+	font-family:Lato;
+}
+
+.bill p{
+	text-decoration : none;
+	text-align:right;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	
+	font-size:18px;
+
+}
+
+.pavementhistory {
+	background-color:#519be5;
+	text-align:center;
+	border:none;
+	font-size:16px;
+	font-family:Raleway ExtraLight;
+	margin:-1px 15px;
+	padding:5px 32px;
+	cursor:pointer;
+	color:white;
+	width:100%;
+	
+}
+
+.historybutton{
+	margin-left:1100px;
+	margin-top:-22px;
+}
+
+.historybutton input[type=button]{
+	width: 150px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #519be5;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: relative;
+	
+}
+
+.billbutton{
+	margin-left:250px;
+	margin-top:-25px;
+}
+
+.billbutton input[type=button]{
+	width: 150px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #519be5;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: relative;
+	
+}
+
+.history input[type=reset]{
+	background-color:#519be5;
+	text-align:center;
+	border:none;
+	font-size:16px;
+	font-family:Raleway ExtraLight;
+	margin:-1px 15px;
+	padding:5px 32px;
+	cursor:pointer;
+	color:white;
+	width:100%;
+}
+.tools{
+	padding-left:40%;
+	padding-top:26%;
+	float:left;
+}
+.historytable input[type=number]
+{	
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+	text-align=right;
+}
+.historytable input[type=text]
+{	
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 40%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+	text-align=right;
+}
+
+.historytable input[type=time]
+{	
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 10%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+	text-align=right;
+}
+.historytable input[type=decimal]
+{	
+	border: 1px solid #519be5;
+	border-radius: 2px;
+	width: 10%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+	text-align=right;
+}
+.confirmpay{
+	width: 70%;
+	height: 800%;
+	text-align: center;
+	position: relative;
+	margin-left: 225px;
+}
+
+.confirmpay img{
+	position: relative;
+	margin-left: -20px;
+	margin-top: 50px;
+	width: 800px;
+	height: 500px;
+}
+
+.confirmpay h2{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	padding : 0px 10px;
+	font-size:24px;
+}
+
+.end input[type=button]{
+	width: 150px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: gray;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: relative;
+	margin-left:700px;
+	
+	
+}
+
+.end{
+	margin-top:-200px;
+	
+}
+
+.background{
+	margin-top:-900px;
+	position:relative;
+}
+
+.backimage img{
+	position:relative;
+}
